@@ -7,10 +7,14 @@ navbar:
     href: research.html
   - text: Biography
     menu:
-    - text: Resume
-      href: resume.html
-    - text: Education
+    - text: Education and Professional Experiences
       href: education.html
+    - text: Publications and Presentations
+      href: publications.html
+    - text: Services and Honors
+      href: services.html
+    - text: Resume Download
+      href: documents/CV2_XunWANG_2019.04.01.pdf
   - text: Contact
     href: contact.html
   - icon: fa-envelope fa-lg

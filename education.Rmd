@@ -1,0 +1,35 @@
+---
+title: "Education and Professional Experiences"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## Education
+
+**[Columbia University](https://www.columbia.edu/)**, New York, USA
+
+* Ph.D. in Mechanical Engineering, 2020
+* M.Phil. in Mechanical Engineering, 2018
+* M.S. in Mechanical Engineering, 2016
+
+**[Shanghai Jiao Tong University](http://en.sjtu.edu.cn/)**, Shanghai, China
+
+* B.S. in Mechanical Engineering and Automation, 2014
+* B.A. in Germen, 2014
+
+## Professional Affiliations
+
+* American Society for Cell Biology (ASCB)
+* American Society of Mechanical Engineers (ASME)
+* New York Academy of Sciences (NYAS)
+
+
+## Selected Professional Experiences
+
+* 2016 - Present, **Kasza Living Materials Lab**, Columbia University, New York, *Research Assistant* 
+* 2016, **Department of Mechanical Engineering**, Columbia University, New York, *Teaching Assistant*
+* 2015, **Advanced Manufacturing Lab**, Columbia University, New York, *Research Assistant*
+* 2014, **Institute of Automotive Engineering**, SJTU, Shanghai, *Research Assistant*
+* 2013, **General Motors Co. Ltd.**, Shanghai, *Process Engineer Intern*

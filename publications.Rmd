@@ -1,0 +1,34 @@
+---
+title: "Publications and Presentations"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## Publications
+
+* **Wang, X.**, Kasza, K. E. (2019). Systematic modulation of E-cadherin reveals the role of cell-cell adhesion in epithelial tissue mechanics. (in preparation)
+* **Wang, X.**, Merkel, M., Sutter, L. B., Erdemci-Tandogan, G., Manning, M. L., Kasza, K. E. (2019). Anisotropy links cell shapes to a solid-to-fluid transition during convergent extension. bioRxiv 781492. doi:10.1101/781492. (preprinted & under review)
+* Arriaga, M., Arteaga, D. N., Fafalis, D., Yu, M., **Wang, X.**, Kasza, K. E., Lalwani, A. K., Kysar, J. W. (2019). Experimental characterization of round window membrane in guinea pig reveals correlations between fiber alignment and membrane curvature predicted to produce superior mechanical behavior under physiological loading. Acta Biomaterialia. (submitted)
+* Aksit, A., Arteaga, D. N., Arriaga, M., **Wang, X.**, Watanabe, H., Kasza, K. E., Lalwani, A. K., Kysar, J. W. (2018). In-vitro perforation of the round window membrane via direct 3-D printed microneedles. Biomedical Microdevices, 20(2). doi:10.1007/s10544-018-0287-3
+* Zheng B., Yu H.D., **Wang X.**, Lai X.M. Effect of Surface Roughness and Residual Stress Induced by High Speed Milling Process on Short Crack Growth. ASME. International Manufacturing Science and Engineering Conference, Volume 2: Materials; Biomanufacturing; Properties, Applications and Systems; Sustainable Manufacturing ():V002T01A001. doi:10.1115/MSEC2016-8503.
+
+## Conference Talks
+
+* NAMRC|MSEC Conference 2016, Blacksburg, VA (06.27-07.01.2016). Effect of Surface Roughness and Residual Stress Induced by High Speed Milling Process on Short Crack Growth.
+* Columbia Biomechanics Seminar, New York, NY (03.23.2017). Mechanics and Morphogenesis of Epithelial Tissues.
+* NCS8 Columbia, New York, NY (01.02.2018). The Role of Cell-Cell Adhesion in Epithelial Tissue Remodeling.
+* NCS9 University of Pennsylvania, Philadelphia, PA (05.25.2018). Cell-Cell Adhesion in Tissue Mechanics.
+* 8th World Congress of Biomechanics, Dublin, Ireland (07.08-07.12.2018). Systematically Modulating Cell-cell Adhesion in vivo Reveals Mechanisms of Epithelial Tissue Morphogenesis.
+* 77th NECF Harvard, Cambridge, MA (11.30.2018). The role of cell-cell adhesion in tissue mechanics and morphogenesis.
+* NCS10 Rutgers, New Brunswick, NJ (01.18.2019). The role of cell-cell adhesion in tissue mechanics and morphogenesis.
+* SB3C, Seven Springs, PA (06.25-06.28.2019). Systematic modulation of cell-cell adhesion in vivo modulates epithelial tissue mechanics and remodeling.
+
+## Poster Presentations
+
+* NCS7 Princeton, NJ  (05.26.2017). Mechanics and Morphogenesis of Epithelial Tissues.
+* ASCB|EMBO 2017 Meeting, Philadelphia, PA (12.02-12.06.2017). Systematically Modulating Cell-cell Adhesion Reveals Cellular Mechanisms of Epithelial Remodeling in Drosophila
+* Northeast Regional Mechanical Engineering Chairs Summit, New York, NY (08.16.2018). Mechanics and Morphogenesis of Epithelial Tissues.
+* ASCB|EMBO 2019 Meeting, Washington, DC (12.07-12.11.2019). Cell-Cell Adhesion Links Cell Shape And Rearrangement Speed During Drosophila Axis Elongation.
+

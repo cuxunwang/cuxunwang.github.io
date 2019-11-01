@@ -1,0 +1,26 @@
+---
+title: "Services and Honors"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## Services and Contributions
+
+* Reflective Teaching Seminar, Columbia University Center for Teaching and Learning, 2016 Fall
+* **Secretary**, Mechanical Engineering Graduate Association, 2016 - 2017
+* **Senior Vice President**, Columbia University Chinese Students and Scholars Association (CUCSSA), 2017 - 2018
+* **Assistant organizer** of NCS8 Columbia
+* **President**, Columbia University Chinese Students and Scholars Association (CUCSSA), 2018 - 2019
+* **Co-Chair**, Columbia University Interschool Governing Board (IGB), 2019 - 2020
+* Volunteer, 16th International Symposium on Computer Methods in Biomechanics and Biomedical Engineering and the 4th Conference on Imaging and Visualization (CMBBE 2019), 2019 Summer
+* **Networking Event Coordinator**, ASME BED Student Leadership Committee, 2019 - 2020
+* **Co-organizer**, Columbia University Biomechanics Seminar Series, 2019 - 2020
+
+## Awards and Honors
+
+* National Scholarship of China, 2012, 2013
+* Kai Yuan Scholarship, 2012
+* Finalist, PhD-level Paper Competition, Summer Biomechanics, Bioengineering, and Biotransport Conference (SB3C) 2019
+* 2nd Place, Cover Art Contest, SB3C 2019

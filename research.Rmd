@@ -13,5 +13,6 @@ One of the biggest challenges in engineering tissues in the lab and developing b
 
 
 **Fig 1.** Morphogenesis: A 0.5mm-long single-layer epithelial tissue generates a 3mm-long adult fruit fly rapidly in just 1 day (25℃) with dramatic structural and shape changes.
+
 **Fig 2.** Quantitative methods: Segmentation and tensor analysis of epithelial tissues *in vivo*.
 
