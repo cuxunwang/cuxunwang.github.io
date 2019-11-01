@@ -26,33 +26,51 @@ rest_inspec =
   mutate(
     boro = str_to_title(boro),
     cuisine_description = replace(cuisine_description, cuisine_description == "Latin (Cuban, Dominican, Puerto Rican, South & Central American)", "Latin"))
+
+common_cuisine = 
+  rest_inspec %>% 
+  count(cuisine_description, sort = TRUE) %>% 
+  top_n(10) %>% 
+  select(cuisine_description) %>% 
+  inner_join(rest_inspec, ., by = "cuisine_description")
 ```
 
 
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### Chart A: Restaurant Inspection Results Distribution in NYC
 
 ```{r}
-rest_inspec %>%
-  sample_n(5000) %>% 
-  plot_ly(x = ~boro, y = ~cuisine_description, type = "scatter", mode = "markers", color = ~grade, alpha = .5)
+set.seed(1)
+
+plot_1 = 
+  common_cuisine %>%
+  sample_n(10000) %>%
+  mutate(borough = fct_infreq(boro)) %>%
+  group_by(borough) %>% 
+  plot_ly(x = ~borough, y = ~score, type = "scatter", mode = "markers", color = ~grade, alpha = .5)
+
+plot_2 = 
+  common_cuisine %>%
+  sample_n(10000) %>%
+  mutate(borough = fct_infreq(boro)) %>%
+  group_by(borough) %>% 
+  summarise(score = mean(score)) %>% 
+  plot_ly(x = ~borough, y = ~score, name = "mean score", type = "scatter", mode = "lines")
+
+subplot(plot_1, plot_2, nrows = 2, shareX = TRUE, shareY = TRUE) %>% 
+  layout(title = "NYC Restaurant Inspection Results")
+
 ```
 
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B: Restaurant Inspection Score Distribution in Manhattan (the lower, the better)
+### Chart B: Top 10 Restaurant Cuisine Type Inspection Score Distribution in Manhattan (the lower, the better)
 
 ```{r}
-common_cuisine = 
-  rest_inspec %>% 
-  count(cuisine_description, sort = TRUE) %>% 
-  top_n(10) %>% 
-  select(cuisine_description)
-
-inner_join(rest_inspec, common_cuisine, by = "cuisine_description") %>% 
+common_cuisine %>% 
   filter(boro == "Manhattan") %>% 
   mutate(cuisine_description = fct_reorder(cuisine_description, score)) %>%
   plot_ly(x = ~cuisine_description, y = ~score, color = ~cuisine_description, type = "box",
@@ -62,7 +80,7 @@ inner_join(rest_inspec, common_cuisine, by = "cuisine_description") %>%
 ### Chart C: Top 10 Restaurant Cuisine Type Distribution in NYC
 
 ```{r}
-inner_join(rest_inspec, common_cuisine, by = "cuisine_description") %>%
+common_cuisine %>%
   mutate(
     borough = fct_infreq(boro),
     cuisine_description = fct_infreq(cuisine_description)) %>% 
