@@ -1,0 +1,75 @@
+---
+title: "NYC Restaurant Inspections"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+
+library(tidyverse)
+library(viridis)
+library(p8105.datasets)
+
+library(plotly)
+```
+
+```{r}
+data("rest_inspec")
+
+rest_inspec = 
+  rest_inspec %>%
+  select(boro, building, critical_flag, cuisine_description, score, zipcode, grade) %>% 
+  filter(grade %in% c("A", "B", "C"), boro != "Missing") %>%
+  mutate(
+    boro = str_to_title(boro),
+    cuisine_description = replace(cuisine_description, cuisine_description == "Latin (Cuban, Dominican, Puerto Rican, South & Central American)", "Latin"))
+```
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+rest_inspec %>%
+  sample_n(5000) %>% 
+  plot_ly(x = ~boro, y = ~cuisine_description, type = "scatter", mode = "markers", color = ~grade, alpha = .5)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B: Restaurant Inspection Score Distribution in Manhattan (the lower, the better)
+
+```{r}
+common_cuisine = 
+  rest_inspec %>% 
+  count(cuisine_description, sort = TRUE) %>% 
+  top_n(10) %>% 
+  select(cuisine_description)
+
+inner_join(rest_inspec, common_cuisine, by = "cuisine_description") %>% 
+  filter(boro == "Manhattan") %>% 
+  mutate(cuisine_description = fct_reorder(cuisine_description, score)) %>%
+  plot_ly(x = ~cuisine_description, y = ~score, color = ~cuisine_description, type = "box",
+          colors = "Set2")
+```
+
+### Chart C: Top 10 Restaurant Cuisine Type Distribution in NYC
+
+```{r}
+inner_join(rest_inspec, common_cuisine, by = "cuisine_description") %>%
+  mutate(
+    borough = fct_infreq(boro),
+    cuisine_description = fct_infreq(cuisine_description)) %>% 
+  group_by(borough, cuisine_description) %>% 
+  summarise(n = n()) %>%
+  plot_ly(x = ~borough, y = ~n, color = ~cuisine_description, type = "bar") %>% 
+  layout(yaxis = list(title = 'restaurant number'), barmode = 'stack')
+
+```
+

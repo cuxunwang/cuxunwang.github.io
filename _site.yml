@@ -17,6 +17,8 @@ navbar:
       href: documents/CV2_XunWANG_2019.04.01.pdf
   - text: Contact
     href: contact.html
+  - text: Dashboard
+    href: dashboard.html
   - icon: fa-envelope fa-lg
     href: mailto:<xun.wang@columbia.edu>
   - icon: fa-linkedin
