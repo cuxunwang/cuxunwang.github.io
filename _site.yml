@@ -17,14 +17,15 @@ navbar:
       href: documents/CV2_XunWANG_2019.04.01.pdf
   - text: Contact
     href: contact.html
-  - text: Dashboard
-    href: dashboard.html
   - icon: fa-envelope fa-lg
-    href: mailto:<xun.wang@columbia.edu>
+    href: mailto:<xunwang@mit.edu>
   - icon: fa-linkedin
-    href: https://www.linkedin.com/in/wangxkoenig/
-  - icon: fa-github
-    href: https://github.com/cuxunwang
+    href: https://www.linkedin.com/in/xunwangphd/
+  - icon: fa-square-x-twitter
+    href: https://x.com/XunWangPhD
+# - icon: fa-github
+#   href: https://github.com/cuxunwang
+
 output:
   html_document:
     theme: journal
