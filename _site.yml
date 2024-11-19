@@ -17,11 +17,11 @@ navbar:
       href: documents/CV2_XunWANG_2019.04.01.pdf
   - text: Contact
     href: contact.html
-  - icon: fa-envelope fa-lg
+  - icon: fa-regular fa-envelope
     href: mailto:<xunwang@mit.edu>
-  - icon: fa-linkedin
+  - icon: fa-brands fa-linkedin-in
     href: https://www.linkedin.com/in/xunwangphd/
-  - icon: fa-twitter
+  - icon: fa-brands fa-x-twitter
     href: https://x.com/XunWangPhD
 # - icon: fa-github
 #   href: https://github.com/cuxunwang
