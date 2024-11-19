@@ -2,6 +2,8 @@
 title: "Goals of Xun's Research Project"
 ---
 
+All biological processes are naturally mechanical and multi-physical. Inspired by the vital role of biomechanics in tissue generation during his PhD research, and after witnessing the devastating impact of AD on patients and their families, Dr. Wang extended his research to explore biomechanics and mechanobiology in tissue degeneration, often the inverse of tissue generation. Fueled by his passion for advancing the understanding of neurodegenerative diseases and fostering new frontiers for the field of mechanical engineering, Xun pursued postdoctoral training to apply these principles to AD research.
+
 
 One of the biggest challenges in engineering tissues in the lab and developing bio-inspired materials is the gap between our knowledge of small-scale building blocks (genes, proteins, cells etc.) and large-scale structures (tissues, organs, body forms etc.). Morphogenesis, the generation of biological shape and structure, is a crucial bridge across these length scales. There are significant mechanical factors, including forces and tissue mechanical properties, involved in morphogenesis yet remaining poorly understood. By developing a systematic, quantitative, *in vivo* experimental toolbox and working with models of tissue mechanics, my research goal is to advance fundamental understanding of how cells build tissues with precise mechanical properties required for proper biological function. My work sheds light on understanding human development and the improper tissue mechanics associated with birth defects, errant wound healing and cancer.
 
