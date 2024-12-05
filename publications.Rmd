@@ -1,5 +1,5 @@
 ---
-title: "Publications and Presentations"
+title: "Publications & Presentations"
 output: 
   html_document:
     toc: true
@@ -8,27 +8,57 @@ output:
 
 ## Publications
 
-* **Wang, X.**, Kasza, K. E. (2019). Systematic modulation of E-cadherin reveals the role of cell-cell adhesion in epithelial tissue mechanics. (in preparation)
-* **Wang, X.**, Merkel, M., Sutter, L. B., Erdemci-Tandogan, G., Manning, M. L., Kasza, K. E. (2019). Anisotropy links cell shapes to a solid-to-fluid transition during convergent extension. bioRxiv 781492. doi:10.1101/781492. (preprinted & under review)
-* Arriaga, M., Arteaga, D. N., Fafalis, D., Yu, M., **Wang, X.**, Kasza, K. E., Lalwani, A. K., Kysar, J. W. (2019). Experimental characterization of round window membrane in guinea pig reveals correlations between fiber alignment and membrane curvature predicted to produce superior mechanical behavior under physiological loading. Acta Biomaterialia. (submitted)
-* Aksit, A., Arteaga, D. N., Arriaga, M., **Wang, X.**, Watanabe, H., Kasza, K. E., Lalwani, A. K., Kysar, J. W. (2018). In-vitro perforation of the round window membrane via direct 3-D printed microneedles. Biomedical Microdevices, 20(2). doi:10.1007/s10544-018-0287-3
-* Zheng B., Yu H.D., **Wang X.**, Lai X.M. Effect of Surface Roughness and Residual Stress Induced by High Speed Milling Process on Short Crack Growth. ASME. International Manufacturing Science and Engineering Conference, Volume 2: Materials; Biomanufacturing; Properties, Applications and Systems; Sustainable Manufacturing ():V002T01A001. doi:10.1115/MSEC2016-8503.
+**Preprints & Manuscripts in Preparation**
 
-## Conference Talks
+1.	 **Wang, X.**, Zhang, Z., Kim, S., Tiong, A., Proestaki, M., Zhang, S., Wan, Z., Guo, M., Tanzi, R. E., Choi, S. H., Kamm, R. D. A multi-physics 3D human brain model reveals the role of the neurovascular-lymphatic system in Alzheimer’s disease.
+2.	**Wang, X.**, Zhang, Z., Tiong, A., Kamm, R. D. Mechanical mechanisms underlying Alzheimer’s disease.
+3.	Kusaka, E., Ostvar, S., **Wang, X.**, Liu, X., Kasza, K. E. Cell rearrangement propagation along the apical-basal axis of epithelia is linked with 3D epithelial tissue structure. bioRxiv 2024.04.29.591620 (2024).
+4.	 Zhang, S., Wan, Z., Wag, L., Wu, C., Spitz, S., **Wang, X.**, Floryan, M. A., Coughlin, M. F., Xu, L., Kamm, R. D. ETV2 mediated differentiation of human pluripotent stem cells results in functional endothelial cells for engineering advanced vascularized microphysiological models. (under review)
+5.	 Dawson, M. L., Bricault, S., Harvery, P., Wisniowska, A., Wei, H., **Wang, X.**, García, G., Das, S., Simon, J., Sun, G., Kamm, R. D., Jasanoff, A. Quantitative comparison of methods for wide-field delivery of small molecules across the blood-brain barrier.
+6.	 Wang, W., Yu, M., Arriaga, M., **Wang, X.**, Kasza, K. E., Niordson, C., Lalwani, A. K., Kysar, J. W. The pressure-induced deformation response of round window membrane: analysis of regional variations. 
+7.	 Wang, W., Arriaga, M., Yu, M., **Wang, X.**, Kasza, K. E., Niordson, C., Lalwani, A. K., Kysar, J. W. Experimental measurement of in-plane large deformation of round window membrane with coherent point drift algorithm.
 
-* NAMRC|MSEC Conference 2016, Blacksburg, VA (06.27-07.01.2016). Effect of Surface Roughness and Residual Stress Induced by High Speed Milling Process on Short Crack Growth.
-* Columbia Biomechanics Seminar, New York, NY (03.23.2017). Mechanics and Morphogenesis of Epithelial Tissues.
-* NCS8 Columbia, New York, NY (01.02.2018). The Role of Cell-Cell Adhesion in Epithelial Tissue Remodeling.
-* NCS9 University of Pennsylvania, Philadelphia, PA (05.25.2018). Cell-Cell Adhesion in Tissue Mechanics.
-* 8th World Congress of Biomechanics, Dublin, Ireland (07.08-07.12.2018). Systematically Modulating Cell-cell Adhesion in vivo Reveals Mechanisms of Epithelial Tissue Morphogenesis.
-* 77th NECF Harvard, Cambridge, MA (11.30.2018). The role of cell-cell adhesion in tissue mechanics and morphogenesis.
-* NCS10 Rutgers, New Brunswick, NJ (01.18.2019). The role of cell-cell adhesion in tissue mechanics and morphogenesis.
-* SB3C, Seven Springs, PA (06.25-06.28.2019). Systematic modulation of cell-cell adhesion in vivo modulates epithelial tissue mechanics and remodeling.
+**Published**
 
-## Poster Presentations
+1.	**Wang, X.**, Cupo, C. M., Ostvar, S., Countryman, A. D. Kasza, K.E. E-cadherin tunes tissue mechanical behavior before and during morphogenetic tissue flows. Current Biology 34, 3367-3379.e5 (2024).
+2.	Pavlou, G., Spitz, S., Pramotton, F. M., Tsai, A., Li, B. M., **Wang, X.**, Barr, O. M., Ko, E. C., Zhang, S., Ashley, S. J., Maaser-Hecker, A., Choi, S. H., Jorfi, M., Tanzi, R. E., Kamm, R. D. Engineered 3D human neurovascular model of Alzheimer’s disease to study vascular dysfunction. Biomaterials 314, 122864 (2024).
+3.	Wan, Z., Floryan, M. A., Coughlin, M. F., Zhang, S., Zhong, A. X., Shelton, S. E., **Wang, X.**, Xu, C., Barbie, D. A., Kamm, R. D. New strategy for promoting vascularization in tumor spheroids in a microfluidic assay. Advanced Healthcare Materials, 2201784, (2022).
+4.	Arriaga, M., Arteaga, D. N., Fafalis, D., Yu, M., **Wang, X.**, Kasza, K. E., Lalwani, A. K., Kysar, J. W. Membrane curvature and connective fiber alignment in guinea pig round window membrane. Acta Biomaterialia, 136:343-362 (2021).
+5.	**Wang, X.**, Merkel, M., Sutter, L. B., Erdemci-Tandogan, G., Manning, M. L., Kasza, K. E. Anisotropy links cell shapes to tissue flow during convergent extension. Proceedings of the National Academy of Sciences of the UAS, 117(24), 13541–13551 (2020).
+6.	Aksit, A., Arteaga, D. N., Arriaga, M., **Wang, X.**, Watanabe, H., Kasza, K. E., Lalwani, A. K., Kysar, J. W. In-vitro perforation of the round window membrane via direct 3-D printed microneedles. Biomedical Microdevices, 20(2) (2018).
+7.	Zheng, B., Yu, H. D., **Wang, X.**, Lai, X. M. Effect of surface roughness and residual stress induced by high speed milling process on short crack growth. ASME IMSEC, 2:V002T01A001 (2016).
 
-* NCS7 Princeton, NJ  (05.26.2017). Mechanics and Morphogenesis of Epithelial Tissues.
-* ASCB|EMBO 2017 Meeting, Philadelphia, PA (12.02-12.06.2017). Systematically Modulating Cell-cell Adhesion Reveals Cellular Mechanisms of Epithelial Remodeling in Drosophila
-* Northeast Regional Mechanical Engineering Chairs Summit, New York, NY (08.16.2018). Mechanics and Morphogenesis of Epithelial Tissues.
-* ASCB|EMBO 2019 Meeting, Washington, DC (12.07-12.11.2019). Cell-Cell Adhesion Links Cell Shape And Rearrangement Speed During Drosophila Axis Elongation.
+**Patents**
+
+1. Microphysiological model of the brain. Floryan M, Hajal C, Ko E, Offeddu G, Pavlou G, Serrano Flores J, Shin Y, Spitz S, Wang X, Zhang S. Priority Application Serial No. PCT/US2024/013132, Filed Jan 26, 2024.
+
+
+## Invited Talks
+
+1. Dec. 06, 2024. Multi-physics 3D human brain models reveal the role of the neurovascular-meaningeal lymphatic system in Alzheimer’s disease. Jasanoff Lab Seminar, MIT, Cambridge, MA.
+2. July 11, 2024. Biomechanics in tissue morphogenesis and degeneration & its applications in translational research. Seminars of Current Perspective and Future Directions, Wuhan University, Virtual.
+3. Sept. 20, 2023. Engineering a human brain model to tackle Alzheimer’s disease. Creative Medtech Solutions Pte Ltd, Singapore.
+
+
+## Presentations at Conferences
+
+1.	X. Wang, S. Kim, M. Proestaki, S. Zhang, G. Pavlou, S. H. Choi, R. E. Tanzi, R. D. Kamm. A 3D in-vitro neuro-vascular human brain model with meningeal lymphatics for studying Alzheimer’s disease (Talk). Summer Biomechanics, Bioengineering, and Biotransport Conference, Lake Geneva, WI, June 11-14, 2024.
+2.	X. Wang, M. Jorfi, G. Pavlou, O. M. Barr, A. Maaser-Hecker, S. Zhang, S. H. Choi, R. E. Tanzi, R. D. Kamm. An induced pluripotent stem cell-derived 3D human brain model for studying the blood-brain barrier in Alzheimer’s disease (Poster). 2023 Biomedical Engineering Society, Cellular and Molecular Bioengineering Conference, Indian Wells, CA, Jan. 2-6, 2023.
+3.	X. Wang, G. Pavlou, S. Zhang, E. C. Ko, R. D. Kamm. A 3D in vitro human brain model for studying neurodegenerative diseases (Talk). The 93rd New England Complex Fluids Meeting. Harvard University, Cambridge, MA, Dec. 2, 2022.
+4.	X. Wang, C. M. Cupo, S. Ostvar, K. E. Kasza. Cell-cell adhesion modulate tissue fluidity during epithelial morphogenesis (Talk). Summer Biomechanics, Bioengineering, and Biotransport Conference, Virtual, June 14 – 18, 2021.
+5.	X. Wang, C. M. Cupo, K. E. Kasza. The role of cell-cell adhesion in epithelial tissue mechanics and morphogenesis (NSF research poster competition). International Mechanical Engineering Congress & Exposition, Virtual, Nov. 16 – 19, 2020.
+6.	X. Wang, C. M. Cupo, K. E. Kasza. The role of cell-cell adhesion in epithelial tissue mechanics and morphogenesis (Poster). From Molecules to Organs: The Mechanobiology of Morphogenesis Virtual Conference, Oct. 28 – 30, 2020.
+7.	X. Wang, K. E. Kasza. Cell-cell adhesion links cell rearrangement and cell shape duing epithelial morphogenesis (PhD paper competition finalist talk). Summer Biomechanics, Bioengineering, and Biotransport Conference, Virtual, June 17 – 20, 2020.
+8.	X. Wang, K. E. Kasza. Cell-cell adhesion links cell shape and rearrangement speed during Drosophila axis elongation (Poster). ASCB|EMBO 2019 Meeting. Washington DC, Dec. 07 – 11, 2019.
+9.	X. Wang, K. E. Kasza. Systematic modulation of cell-cell adhesion in vivo modulates epithelial tissue mechanics and remodeling (PhD paper competition finalist talk). Summer Biomechanics, Bioengineering, and Biotransport Conference, Seven Springs, PA, June 25 – 28, 2019.
+10.	X. Wang, K. E. Kasza. The role of cell-cell adhesion in tissue mechanics and morphogenesis (Talk). The 10th Northeast Complex Fluids and Soft Matter Workshop. Rutgers University, New Brunswick, NJ, Jan. 18, 2019.
+11.	X. Wang, K. E. Kasza. The role of cell-cell adhesion in tissue mechanics and morphogenesis (Talk). The 77th New England Complex Fluids Meeting. Harvard University, Cambridge, MA, Nov. 30, 2018.
+12.	X. Wang, K. E. Kasza. Mechanics and morphogenesis of epithelial tissues (Poster). Northeast Regional Mechanical Engineering Chairs Summit. Columbia University, New York, NY. Aug. 16, 2018.
+13.	X. Wang, K. E. Kasza. Systematically modulating cell-cell adhesion in vivo reveals mechanisms of tissue morphogenesis (Talk). The 8th World Congress of Biomechanics. Dublin, Ireland, July 8 – 12, 2018.
+14.	X. Wang, K. E. Kasza. Cell-cell adhesion in tissue mechanics (Talk). The 9th Northeast Complex Fluids and Soft Matter Workshop. University of Pennsylvania, Philadelphia, PA, May 25, 2018.
+15.	X. Wang, K. E. Kasza. The role of cell-cell adhesion in epithelial tissue remodeling (Talk). The 8th Northeast Complex Fluids and Soft Matter Workshop. Columbia University, New York, NY, Jan. 2, 2018.
+16.	X. Wang, K. E. Kasza. Systematically modulating cell-cell adhesion reveals cellular mechanisms of epithelial remodeling in Drosophila (Poster). ASCB|EMBO 2017 Meeting. Philadelphia, PA, Dec 2 – 6, 2017.
+17.	X. Wang, K. E. Kasza. Mechanics and morphogenesis of epithelial tissues (Poster). The 7th Northeast Complex Fluids and Soft Matter Workshop. Princeton University, Princeton, NJ, May 26, 2017.
+18.	X. Wang, K. E. Kasza. Mechanics and morphogenesis of epithelial tissues (Talk). Columbia Biomechanics Seminar, New York, NY, March 23, 2018.
+19.	B. Zheng, H. D. Yu, X. Wang, X. M. Lai. Effect of surface roughness and residual stress induced by high speed milling process on short crack growth (Talk). NAMRC|MSEC Conference, Blacksburg, VA, June 27 – July 1, 2016.
 

@@ -1,6 +1,6 @@
 ---
-title: "Biomechanics for Brain Health" 
-subtitle: "Tackle Alzheimer's with Mechanical Engineering (under construction)"
+title: "Mechanics for Brain Health" 
+subtitle: "Tackle Alzheimer's with Mechanical Engineering"
 ---
 
 <br><br><img src="images/xun_wang.jpg" alt="logo" style="float:left; width:30%; border:5px solid; margin:50px"><br>
@@ -10,11 +10,13 @@ body {
 text-align: justify}
 </style>
 
-**Xun Wang, Ph.D.** is conducting pioneering interdisciplinary research that applies engineering principles and methods to study human brain mechanisms and Alzheimer’s disease (AD). He is currently a Postdoc Research Fellow jointly appointed in the Departments of [Mechanical](https://meche.mit.edu/) and [Biological Engineering](https://be.mit.edu/) at [MIT](https://mit.edu/), and in the [Genetics and Aging Research Unit](https://www.massgeneral.org/neurology/research/genetics-aging-research-unit) of the [Department of Neurology](https://www.massgeneral.org/neurology) and the [McCance Center for Brain Health](https://www.massgeneral.org/neurology/mccance-center) at [Massachusetts General Hospital](https://www.massgeneral.org/) (MGH).
+**Welcome to the future Wang Mechanics for Brain Health Lab!**
 
-Before joining MIT and MGH, Xun conducted research on ***in-vivo* biomechanics** during morphogenesis — how mechanical forces shape diverse structures in living tissues — in the [Department of Mechanical Engineering](https://www.me.columbia.edu/) at [Columbia University](https://www.columbia.edu/) under the supervision of Prof. [Karen Kasza](https://www.kaszalab.com/). All biological processes are naturally physics. Inspired by the vital role of biomechanics in tissue generation, and after witnessing the devastating impact of AD on patients and their families, he pivoted his research to explore biomechanics and mechanobiology in tissue degeneration, often the inverse of tissue generation. Fueled by his passion for advancing the understanding of neurodegenerative diseases and fostering new frontiers for the field of mechanical engineering, Xun pursued postdoctoral training to apply these principles to AD research.
+**Xun Wang, Ph.D.** is conducting pioneering interdisciplinary research that applies engineering principles and methods to study human brain and Alzheimer’s disease (AD). He is currently a Postdoctoral Research Fellow working with Profs. [Roger Kamm](https://web.mit.edu/meche/mb/) and [Ming Guo](https://www.guolab.mit.edu/) in the Departments of Mechanical and Biological Engineering at **MIT**, and with Dr. [Se Hoon Choi](https://www.massgeneral.org/neurology/research/genetics-aging-research-unit/choi-lab) in the Genetics and Aging Research Unit of the Department of Neurology and the McCance Center for Brain Health at **Massachusetts General Hospital (MGH)** and **Harvard Medical School (HMS)**. 
 
-Under the supervision of Prof. [Roger Kamm](https://web.mit.edu/meche/mb/) at MIT and Dr. [Se Hoon Choi](https://www.massgeneral.org/neurology/research/genetics-aging-research-unit/choi-lab) at MGH, Xun is developing one of the most **physiologically relevant multi-physics *in-vitro* human brain models**. This innovative system integrates **perfusable blood-brain barrier (BBB) networks**, **meningeal lymphatic networks**, and **stem-cell-derived AD neurons** to investigate the **interplay between the two most critical entry-exit systems in the brain during AD progression**. Additionally, under the guidance of Profs. Roger Kamm, [Ming Guo](https://www.guolab.mit.edu/) at MIT, and Dr. Se Hoon Choi at MGH, Xun is studying **biomechanical changes in brain cells and tissues in AD**. His work **bridges cellular and tissue-level mechanobiological changes with the mechanisms of AD, exploring potential interventions targeting mechanobiological pathways**.
+Before joining MIT and MGH/HMS, Xun researched on biomechanics during morphogenesis — how mechanical forces shape structures in living tissues — in the Department of Mechanical Engineering at **Columbia University** under the supervision of Prof. [Karen Kasza](https://www.kaszalab.com/).
 
-Xun’s current work bridges **fundamental** and **translational** research, fostering diverse **collaborations**. His collaborative efforts have included using biophysical models to explain tissue morphogenesis, employing biomechanical evaluations to develop clinical medical devices for inner ear drug delivery, **screening molecules and drugs for brain health**, and **investigating cancer brain metastasis**. Passionate about **pushing the boundaries of traditional mechanical engineering**, Xun aims to unravel the mysteries of the brain and neurodegenerative diseases from a **fresh, interdisciplinary perspective**.
+Xun holds an M.S., M.Phil., and Ph.D. in Mechanical Engineering from Columbia University and a B.S. in Mechanical Engineering and Automation and a B.A. in German from Shanghai Jiao Tong University.
+
+
 

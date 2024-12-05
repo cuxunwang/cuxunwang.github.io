@@ -11,7 +11,7 @@
 
 
 
-<title>Goals of Xun’s Research Project</title>
+<title>Research</title>
 
 <script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -29,15 +29,19 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+<script defer src="https://use.fontawesome.com/releases/v6.7.0/js/all.js"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.0.3/js/all.js"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/v4-shims.js"></script>
-<link rel="shortcut icon" href="Columbia_Engineering_logo.png">
+<link rel="shortcut icon" href="images/MIT-social-media-logo-white.png">
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -226,6 +230,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -233,6 +300,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -255,48 +332,33 @@ $(document).ready(function () {
         <li>
   <a href="research.html">Research</a>
 </li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Biography
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="education.html">Education and Professional Experiences</a>
-    </li>
-    <li>
-      <a href="publications.html">Publications and Presentations</a>
-    </li>
-    <li>
-      <a href="services.html">Services and Honors</a>
-    </li>
-    <li>
-      <a href="documents/CV2_XunWANG_2019.04.01.pdf">Resume Download</a>
-    </li>
-  </ul>
+<li>
+  <a href="research.html">Teaching</a>
 </li>
 <li>
-  <a href="contact.html">Contact</a>
+  <a href="research.html">Community</a>
 </li>
 <li>
-  <a href="dashboard.html">Dashboard</a>
+  <a href="publications.html">Publications &amp; Presentations</a>
+</li>
+<li>
+  <a href="about.html">About Me</a>
 </li>
 <li>
   <a href="mailto:&lt;xunwang@mit.edu&gt;">
-    <span class="fa fa-envelope fa-lg"></span>
+    <span class="fa fa-regular fa-envelope"></span>
      
   </a>
 </li>
 <li>
   <a href="https://www.linkedin.com/in/xunwangphd/">
-    <span class="fa fa-linkedin"></span>
+    <span class="fa fa-brands fa-linkedin-in"></span>
      
   </a>
 </li>
 <li>
   <a href="https://x.com/XunWangPhD">
-    <span class="fa fa-brands fa-square-x-twitter"></span>
+    <span class="fa fa-brands fa-x-twitter"></span>
      
   </a>
 </li>
@@ -309,43 +371,157 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Goals of Xun’s Research Project</h1>
+<h1 class="title toc-ignore">Research</h1>
 
 </div>
 
 
-<p>One of the biggest challenges in engineering tissues in the lab and
-developing bio-inspired materials is the gap between our knowledge of
-small-scale building blocks (genes, proteins, cells etc.) and
-large-scale structures (tissues, organs, body forms etc.).
-Morphogenesis, the generation of biological shape and structure, is a
-crucial bridge across these length scales. There are significant
-mechanical factors, including forces and tissue mechanical properties,
-involved in morphogenesis yet remaining poorly understood. By developing
-a systematic, quantitative, <em>in vivo</em> experimental toolbox and
-working with models of tissue mechanics, my research goal is to advance
-fundamental understanding of how cells build tissues with precise
-mechanical properties required for proper biological function. My work
-sheds light on understanding human development and the improper tissue
-mechanics associated with birth defects, errant wound healing and
-cancer.</p>
-<center class="half">
-<img src="images/research_pic_1.png" width="300"/>
-<img src="images/research_pic_2.png" width="300"/>
-</center>
-<p><strong>Fig 1.</strong> Morphogenesis: A 0.5mm-long single-layer
-epithelial tissue generates a 3mm-long adult fruit fly rapidly in just 1
-day (25℃) with dramatic structural and shape changes.</p>
-<p><strong>Fig 2.</strong> Quantitative methods: Segmentation and tensor
-analysis of epithelial tissues <em>in vivo</em>.</p>
+<style>
+body {
+text-align: justify}
+</style>
+<p><strong>Biological processes are inherently mechanical</strong>:
+tissues maintain specific physical properties to function, and forces
+drive key biological activities. In the brain, mechanics shapes the
+folded cortex during development and mediates damage in traumatic brain
+injury. Despite its importance, a <strong>Systematic Mechanical
+Framework</strong> for understanding brain health and disease is still
+lacking.</p>
+<p>Bridging mechanical engineering, biology, and medicine is essential
+to fill this gap. <strong>Mechanobiology</strong> explores how
+mechanical forces and properties influence biological processes,
+uncovering the “why and how” of mechanics in biology.
+<strong>Biomechanics</strong> quantifies these forces and properties,
+providing a deeper understanding of biological systems. Together, these
+interdisciplinary perspectives open new frontiers for understanding
+brain function, unraveling diseases, and developing innovative
+therapeutic strategies.</p>
+<div id="lab-vision" class="section level2">
+<h2>Lab Vision</h2>
+<p>With expertise spanning <strong>mechanical and biological
+engineering</strong>, <strong>biophysics</strong>,
+<strong>biology</strong>, and <strong>neuroscience</strong>, our lab is
+dedicated to building a comprehensive framework to understand the role
+of mechanics in brain health and disease, paving the way for novel
+therapeutic strategies for neurological disorders. To achieve this, we
+focus on three Key Aims: 1. <u>Develop multi-scale, physiologically
+relevant human brain models integrated with advanced mechanical
+measurement platforms</u>; 2. <u>Uncover mechanobiological mechanisms
+underlying healthy brain function and neurological disease</u>; 3.
+<u>Identify mechano-biomarkers and design mechanobiological therapeutics
+for the treatment of brain diseases</u>.</p>
+<div style="text-align: center; margin: 30px;">
+<img src="images/Lab%20Vision.png" alt="Lab Vision" style="width:80%; border:0px solid;">
+<p style="margin-top: 10px; font-size: 12px; font-style: italic;">
+Fig 1: Vision of the future Mechanics for Brain Health Lab.
+</p>
+</div>
+</div>
+<div id="in-vitro-ad-human-brain-models-mechanobiology"
+class="section level2">
+<h2><em>In-Vitro</em> AD Human Brain Models &amp; Mechanobiology</h2>
+<p>A fresh perspective on brain mechanisms is urgently needed as
+neurodegenerative diseases like <strong>Alzheimer’s disease
+(AD)</strong> become pressing global challenges in an aging world. AD,
+the most common form of age-related dementia, affects millions worldwide
+and costs over $300 billion annually in the U.S. alone. Its pathology
+involves cognitive decline, neuronal loss, amyloid β (Aβ) plaque
+accumulation, tau tangles, and <strong>blood-brain barrier
+(BBB)</strong> breakdown. The recent discovery of the <strong>meningeal
+lymphatics (ML)</strong> has unveiled their critical role in maintaining
+brain health, opening new avenues for understanding and addressing
+AD.</p>
+<div style="text-align: center; margin: 10px;">
+<img src="images/BBB%20LEC.png" alt="BBB LEC" style="width:80%; border:0px solid;">
+<p style="margin-top: 10px; font-size: 12px; font-style: italic;">
+Fig 2: AD neurons with perfusable blood-brain barrier (BBB) networks
+consisting of endothelial cells, astrocytes, and pericytes (left).
+Meningeal lymphatics are disrupted in AD models (right).
+</p>
+</div>
+<p><strong>Tissue Mechanical Function Change in AD Models</strong>: With
+Prof. <a href="https://web.mit.edu/meche/mb/">Roger Kamm</a> at MIT and
+Dr. <a
+href="https://www.massgeneral.org/neurology/research/genetics-aging-research-unit/choi-lab">Se
+Hoon Choi</a> at MGH/HMS, Xun is developing one of the most
+<strong>physiologically relevant multi-physics <em>in-vitro</em> human
+brain models</strong>. This innovative system integrates perfusable
+blood-brain barrier (BBB) networks, meningeal lymphatic networks, and
+stem-cell-derived AD neurons to investigate the interplay between the
+two most critical entry-exit systems in the brain during AD
+progression.</p>
+<div
+style="float: left; width: 60%; text-align: center; margin: 20 px;">
+<img src="images/AC%20OT.png" alt="AC-Piezo1" style="width: 80%; border: 0px;">
+<p style="font-style: italic; font-size: 12px; margin-top: 5px; margin-right: 20px;">
+Fig 3: Astrocytes exhibit high expression of the mechanosensitive
+protein Piezo1 (left) and their mechanical properties can be measured by
+optical tweezers (right).
+</p>
+</div>
+<p><strong>Tissue &amp; Cell Level Mechanobiological Mechanisms in
+AD</strong>: With Profs. Roger Kamm, <a
+href="https://www.guolab.mit.edu/">Ming Guo</a> at MIT, and Dr. Se Hoon
+Choi at MGH, Xun is studying <strong>mechanobiological changes</strong>
+in brain cells and tissues in AD. His work bridges cell and tissue-level
+mechanobiological changes with the mechanisms of AD, exploring potential
+interventions targeting mechanobiological pathways.</p>
+</div>
+<div id="in-vivo-morphogenesis-biomechanics" class="section level2">
+<h2><em>In-Vivo</em> Morphogenesis &amp; Biomechanics</h2>
+<p>During his Ph.D., Xun researched on <strong><em>in-vivo</em>
+biomechanics</strong> during <strong>morphogenesis</strong> — how
+mechanical forces shape diverse structures in living tissues with
+Prof. <a href="https://www.kaszalab.com/">Karen Kasza</a>. He developed
+an appealing method to read out tissue fluidity – a description of the
+balance between solid and fluid-like behavior - by just looking at a
+snapshot of the cell geometry patterns and further revealed how
+cell-level adhesive forces tune tissue-level mechancial behaviors.</p>
+<p>Inspired by the vital role of biomechanics in tissue generation, and
+after witnessing the devastating impact of AD on patients and their
+families, he pivoted his research to explore biomechanics and
+mechanobiology in tissue degeneration, often the inverse of tissue
+generation.</p>
+</div>
+<div id="collaborations" class="section level2">
+<h2>Collaborations</h2>
+<p>Xun’s work bridges <strong>fundamental</strong> and
+<strong>translational</strong> research, fostering diverse
+<strong>collaborations</strong>. His collaborative efforts have
+included</p>
+<ul>
+<li>Using biophysical models to explain tissue morphogenesis with
+Prof. <a href="https://mmanning.expressions.syr.edu/">Lisa Manning</a>
+at <strong>Syracuse University</strong> (<a
+href="https://doi.org/10.1073/pnas.1916418117">paper</a>)</li>
+<li>Employing biomechanical evaluations to develop clinical medical
+devices for inner ear drug delivery with Prof. <a
+href="https://kysarlab.me.columbia.edu/">Jeffrey Kysar</a> at
+<strong>Columbia University</strong> (<a
+href="https://doi.org/10.1007/s10544-018-0287-3">paper 1</a>, <a
+href="https://doi.org/10.1016/j.actbio.2021.09.036">paper 2</a>)</li>
+<li>Screening molecules and drugs for brain imaging and health with
+Prof. <a href="https://jasanofflab.mit.edu/">Alan Jasanoff</a> at
+<strong>MIT</strong> (ongoing)</li>
+<li>Investigating cancer brain metastasis with Prof. <a
+href="https://dna-discovery.stanford.edu/">Hanlee Ji</a> at
+<strong>Stanford University</strong> (ongoing)</li>
+</ul>
+<p>Passionate about <strong>pushing the boundaries of traditional
+mechanical engineering</strong>, Xun aims to unravel the mysteries of
+the brain and neurodegenerative diseases from a <strong>fresh,
+interdisciplinary perspective</strong>.</p>
+</div>
 
 <br><br>
 <footer>
   <br>
-  <p class="copyright text-muted" align="center">Copyright &copy; 2019 Xun Wang</p>
+  <p class="copyright text-muted" align="center">Copyright &copy; 2015-2024 Xun Wang. All Rights Reserved.</p>
 </footer>
 
 
+</div>
+</div>
 
 </div>
 
@@ -378,6 +554,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

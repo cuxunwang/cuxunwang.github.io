@@ -1,5 +1,5 @@
 ---
-title: "Education and Professional Experiences"
+title: "Education & Professional Experiences"
 output: 
   html_document:
     toc: true
@@ -10,26 +10,28 @@ output:
 
 **[Columbia University](https://www.columbia.edu/)**, New York, USA
 
-* Ph.D. in Mechanical Engineering, 2020
-* M.Phil. in Mechanical Engineering, 2018
-* M.S. in Mechanical Engineering, 2016
+* Ph.D. in Mechanical Engineering
+* M.Phil. in Mechanical Engineering
+* M.S. in Mechanical Engineering
 
 **[Shanghai Jiao Tong University](http://en.sjtu.edu.cn/)**, Shanghai, China
 
-* B.S. in Mechanical Engineering and Automation, 2014
-* B.A. in German, 2014
+* B.S. in Mechanical Engineering and Automation
+* B.A. in German
+
+## Professional Experiences
+
+* 2021 - Present, *Postdoctoral Research Fellow*, **Kamm Mechanobioloy Lab**, Department of Mechanical & Biological Engineering, MIT, Cambridge, MA
+* 2024 - Present, *Postdoctoral Research Fellow*, **Choi Lab**, Department of Neurology, MGH, Boston, MA
+* 2024 - Present, *Postdoctoral Research Fellow*, **Guo Lab of Cell Mechanics**, Department of Mechanical Engineering, MIT, Cambridge, MA
+* 2016 - 2021, *Graduate Research Assistant*, **Kasza Living Materials Lab**, Columbia University, New York, NY
+* 2015 - 2016, *Graduate Research Assistant*, **Advanced Manufacturing Lab**, Columbia University, New York, NY
+* 2014, **Institute of Automotive Engineering**, SJTU, Shanghai, *Research Assistant*
+* 2013, **General Motors Co. Ltd.**, Shanghai, *Process Engineer Intern*
 
 ## Professional Affiliations
 
-* American Society for Cell Biology (ASCB)
 * American Society of Mechanical Engineers (ASME)
+* Biomedical Engineering Society (BMES)
+* American Society for Cell Biology (ASCB)
 * New York Academy of Sciences (NYAS)
-
-
-## Selected Professional Experiences
-
-* 2016 - Present, **Kasza Living Materials Lab**, Columbia University, New York, *Research Assistant* 
-* 2016, **Department of Mechanical Engineering**, Columbia University, New York, *Teaching Assistant*
-* 2015, **Advanced Manufacturing Lab**, Columbia University, New York, *Research Assistant*
-* 2014, **Institute of Automotive Engineering**, SJTU, Shanghai, *Research Assistant*
-* 2013, **General Motors Co. Ltd.**, Shanghai, *Process Engineer Intern*

@@ -1,20 +1,62 @@
 ---
-title: "Goals of Xun's Research Project"
+title: "Research"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
 ---
-
-All biological processes are naturally mechanical and multi-physical. Inspired by the vital role of biomechanics in tissue generation during his PhD research, and after witnessing the devastating impact of AD on patients and their families, Dr. Wang extended his research to explore biomechanics and mechanobiology in tissue degeneration, often the inverse of tissue generation. Fueled by his passion for advancing the understanding of neurodegenerative diseases and fostering new frontiers for the field of mechanical engineering, Xun pursued postdoctoral training to apply these principles to AD research.
-
-
-One of the biggest challenges in engineering tissues in the lab and developing bio-inspired materials is the gap between our knowledge of small-scale building blocks (genes, proteins, cells etc.) and large-scale structures (tissues, organs, body forms etc.). Morphogenesis, the generation of biological shape and structure, is a crucial bridge across these length scales. There are significant mechanical factors, including forces and tissue mechanical properties, involved in morphogenesis yet remaining poorly understood. By developing a systematic, quantitative, *in vivo* experimental toolbox and working with models of tissue mechanics, my research goal is to advance fundamental understanding of how cells build tissues with precise mechanical properties required for proper biological function. My work sheds light on understanding human development and the improper tissue mechanics associated with birth defects, errant wound healing and cancer.
-
-
-<center class="half">
-    <img src="images/research_pic_1.png" width="300"/>
-    <img src="images/research_pic_2.png" width="300"/>
-</center>
+<style>
+body {
+text-align: justify}
+</style>
 
 
-**Fig 1.** Morphogenesis: A 0.5mm-long single-layer epithelial tissue generates a 3mm-long adult fruit fly rapidly in just 1 day (25℃) with dramatic structural and shape changes.
+**Biological processes are inherently mechanical**: tissues maintain specific physical properties to function, and forces drive key biological activities. In the brain, mechanics shapes the folded cortex during development and mediates damage in traumatic brain injury. Despite its importance, a **Systematic Mechanical Framework** for understanding brain health and disease is still lacking.
 
-**Fig 2.** Quantitative methods: Segmentation and tensor analysis of epithelial tissues *in vivo*.
+Bridging mechanical engineering, biology, and medicine is essential to fill this gap. **Mechanobiology** explores how mechanical forces and properties influence biological processes, uncovering the “why and how” of mechanics in biology. **Biomechanics** quantifies these forces and properties, providing a deeper understanding of biological systems. Together, these interdisciplinary perspectives open new frontiers for understanding brain function, unraveling diseases, and developing innovative therapeutic strategies.
+
+## Lab Vision
+With expertise spanning **mechanical and biological engineering**, **biophysics**, **biology**, and **neuroscience**, our lab is dedicated to building a comprehensive framework to understand the role of mechanics in brain health and disease, paving the way for novel therapeutic strategies for neurological disorders. To achieve this, we focus on three Key Aims: 1. <u>Develop multi-scale, physiologically relevant human brain models integrated with advanced mechanical measurement platforms</u>; 2. <u>Uncover mechanobiological mechanisms underlying healthy brain function and neurological disease</u>; 3.	<u>Identify mechano-biomarkers and design mechanobiological therapeutics for the treatment of brain diseases</u>.
+
+<div style="text-align: center; margin: 30px;">
+  <img src="images/Lab Vision.png" alt="Lab Vision" style="width:80%; border:0px solid;">
+  <p style="margin-top: 10px; font-size: 12px; font-style: italic;">Fig 1: Vision of the future Mechanics for Brain Health Lab.</p>
+</div>
+
+## *In-Vitro* AD Human Brain Models & Mechanobiology
+
+A fresh perspective on brain mechanisms is urgently needed as neurodegenerative diseases like **Alzheimer’s disease (AD)** become pressing global challenges in an aging world. AD, the most common form of age-related dementia, affects millions worldwide and costs over $300 billion annually in the U.S. alone. Its pathology involves cognitive decline, neuronal loss, amyloid β (Aβ) plaque accumulation, tau tangles, and **blood-brain barrier (BBB)** breakdown. The recent discovery of the **meningeal lymphatics (ML)** has unveiled their critical role in maintaining brain health, opening new avenues for understanding and addressing AD.
+
+<div style="text-align: center; margin: 10px;">
+  <img src="images/BBB LEC.png" alt="BBB LEC" style="width:80%; border:0px solid;">
+  <p style="margin-top: 10px; font-size: 12px; font-style: italic;">Fig 2: AD neurons with perfusable blood-brain barrier (BBB) networks consisting of endothelial cells, astrocytes, and pericytes (left). Meningeal lymphatics are disrupted in AD models (right).</p>
+</div>
+
+**Tissue Mechanical Function Change in AD Models**: With Prof. [Roger Kamm](https://web.mit.edu/meche/mb/) at MIT and Dr. [Se Hoon Choi](https://www.massgeneral.org/neurology/research/genetics-aging-research-unit/choi-lab) at MGH/HMS, Xun is developing one of the most **physiologically relevant multi-physics *in-vitro* human brain models**. This innovative system integrates perfusable blood-brain barrier (BBB) networks, meningeal lymphatic networks, and stem-cell-derived AD neurons to investigate the interplay between the two most critical entry-exit systems in the brain during AD progression.
+
+<div style="float: left; width: 60%; text-align: center; margin: 20 px;">
+  <img src="images/AC OT.png" alt="AC-Piezo1" style="width: 80%; border: 0px;">
+  <p style="font-style: italic; font-size: 12px; margin-top: 5px; margin-right: 20px;">Fig 3: Astrocytes exhibit high expression of the mechanosensitive protein Piezo1 (left) and their mechanical properties can be measured by optical tweezers (right). </p>
+</div>
+
+**Tissue & Cell Level Mechanobiological Mechanisms in AD**: With Profs. Roger Kamm, [Ming Guo](https://www.guolab.mit.edu/) at MIT, and Dr. Se Hoon Choi at MGH, Xun is studying **mechanobiological changes** in brain cells and tissues in AD. His work bridges cell and tissue-level mechanobiological changes with the mechanisms of AD, exploring potential interventions targeting mechanobiological pathways.
+
+
+## *In-Vivo* Morphogenesis & Biomechanics
+
+During his Ph.D., Xun researched on ***in-vivo* biomechanics** during **morphogenesis** — how mechanical forces shape diverse structures in living tissues with Prof. [Karen Kasza](https://www.kaszalab.com/). He developed an appealing method to read out tissue fluidity – a description of the balance between solid and fluid-like behavior - by just looking at a snapshot of the cell geometry patterns and further revealed how cell-level adhesive forces tune tissue-level mechancial behaviors.
+
+Inspired by the vital role of biomechanics in tissue generation, and after witnessing the devastating impact of AD on patients and their families, he pivoted his research to explore biomechanics and mechanobiology in tissue degeneration, often the inverse of tissue generation.
+
+## Collaborations
+
+Xun’s work bridges **fundamental** and **translational** research, fostering diverse **collaborations**. His collaborative efforts have included
+
+* Using biophysical models to explain tissue morphogenesis with Prof. [Lisa Manning](https://mmanning.expressions.syr.edu/) at **Syracuse University** ([paper](https://doi.org/10.1073/pnas.1916418117))
+* Employing biomechanical evaluations to develop clinical medical devices for inner ear drug delivery with Prof. [Jeffrey Kysar](https://kysarlab.me.columbia.edu/) at **Columbia University** ([paper 1](https://doi.org/10.1007/s10544-018-0287-3), [paper 2](https://doi.org/10.1016/j.actbio.2021.09.036))
+* Screening molecules and drugs for brain imaging and health with Prof. [Alan Jasanoff](https://jasanofflab.mit.edu/) at **MIT** (ongoing)
+* Investigating cancer brain metastasis with Prof. [Hanlee Ji](https://dna-discovery.stanford.edu/) at **Stanford University** (ongoing)
+
+Passionate about **pushing the boundaries of traditional mechanical engineering**, Xun aims to unravel the mysteries of the brain and neurodegenerative diseases from a **fresh, interdisciplinary perspective**.
+
 

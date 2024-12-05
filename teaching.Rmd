@@ -1,0 +1,31 @@
+---
+title: "Teaching & Mentorship"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## Teaching
+
+**Certified Training**
+
+* [Kaufman Teaching Certificate](https://tll.mit.edu/programming/grad-student-programming/kaufman-teaching-certificate-program/): Introductory Biomechanics (Course Design), MIT Teaching + Learning Lab
+* Reflective Teaching Certificate, Columbia University Center for Teaching and Learning
+
+**Invited Guest Lecture**
+
+* Class 2.788, Mechanical engineering and design of living systems, MIT
+* EGM 4592, Bio-solid mechanics, University of Florida
+
+**Teaching Assistant**
+
+* MEBM 4710, Morphogenesis: shape and structure in biological materials, Columbia University
+* MECE 3038, Mechanical engineering laboratory III, Columbia University
+* MECE 4609, Computer aided manufacturing, Columbia University
+
+## Mentorship
+
+* 2023 - present, Mentor for two undergraduate women in engineering through Undergraduate Research Opportunities Program (UROP) at MIT
+* 2017-2021, Mentor for three graduate students and four undergraduate women in engineering through the J&J Scholars Program at Columbia University
+* 2018 - 2021, Mentor for six under-represented minority high school students through the Engineering the Next Generation Program at Columbia University

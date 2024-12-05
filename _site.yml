@@ -5,18 +5,14 @@ navbar:
   right:
   - text: Research
     href: research.html
-  - text: Biography
-    menu:
-    - text: Education and Professional Experiences
-      href: education.html
-    - text: Publications and Presentations
-      href: publications.html
-    - text: Services and Honors
-      href: services.html
-    - text: Resume Download
-      href: documents/CV2_XunWANG_2019.04.01.pdf
-  - text: Contact
-    href: contact.html
+  - text: Teaching
+    href: teaching.html
+  - text: Community
+    href: community.html
+  - text: Publications & Presentations
+    href: publications.html
+  - text: About Me
+    href: about.html
   - icon: fa-regular fa-envelope
     href: mailto:<xunwang@mit.edu>
   - icon: fa-brands fa-linkedin-in
