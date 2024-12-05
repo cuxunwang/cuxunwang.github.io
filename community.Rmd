@@ -1,5 +1,5 @@
 ---
-title: "Professional Service & Activities"
+title: "Community Service & Activities"
 output: 
   html_document:
     toc: true
